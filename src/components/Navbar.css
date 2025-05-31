@@ -1,0 +1,95 @@
+/* Navbar.css */
+
+.navbar {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Top white section with logo and agency name */
+.navbar-top {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.agency-name h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #004080;
+}
+
+.agency-name p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Bottom blue navbar */
+.navbar-bottom {
+  background-color: #004080;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a,
+.nav-button,
+.dropdown > span {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.nav-button {
+  padding: 0;
+  margin: 0;
+}
+
+/* Dropdown styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #004080;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
