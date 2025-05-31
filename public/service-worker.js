@@ -2,12 +2,12 @@ importScripts('https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js'
 importScripts('https://www.gstatic.com/firebasejs/9.6.10/firebase-messaging-compat.js');
 
 firebase.initializeApp({
-  apiKey: "AIzaSyAS-JL_7yAfKTwd4tPIWQLTMQ0LS1Us4v8",
-  authDomain: "farleyinsuranceapp.firebaseapp.com",
-  projectId: "farleyinsuranceapp",
-  storageBucket: "farleyinsuranceapp.appspot.com",
-  messagingSenderId: "633819483738",
-  appId: "1:633819483738:web:e17d76d4338976ee4d263"
+  apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  authDomain: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  projectId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  storageBucket: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  messagingSenderId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  appId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 });
 
 const messaging = firebase.messaging();
